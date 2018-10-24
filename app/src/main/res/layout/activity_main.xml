@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="top|center"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/wh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Where were you born?"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button1"
+        android:onClick="onClickWidget"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SEOUL"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:onClick="onClickWidget"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NEW YORK"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:onClick="onClickWidget"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TOKYO"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:onClick="onClickWidget"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PARI"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/button5"
+        android:onClick="onClickWidget"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LONDON"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/button6"
+        android:onClick="onClickWidget"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SANTIAGO"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="내고향은"
+        android:textSize="24sp" />
+
+</LinearLayout>
